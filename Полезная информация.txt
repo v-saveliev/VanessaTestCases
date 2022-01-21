@@ -1,0 +1,17 @@
+Ссылки:
+Репозиторий vanessa automation https://github.com/Pr-Mex/vanessa-automation
+Софт для allure отчетов  https://github.com/allure-framework/allure2
+
+Начало работы с GIT:
+1. Установить GIT - https://git-scm.com/
+2. Установить графический интерфейс GIT,  например https://desktop.github.com/
+
+Для внешних обработок в GIT:
+1. Установить OScript - https://oscript.io/ (может потребоваться перезагрузка для установки библиотек)
+2. Установить библиотеки os:
+		- opm install precommit1c
+		- opm install gitsync
+		- opm install packman 
+		- opm install deployka
+3. Выполнить комманду в локальном репозитории: precommit1c --install
+4. Сделать коммит внешнего файла 1С (обработка, отчет) - если всё хорошо он должен разложиться автоматически
